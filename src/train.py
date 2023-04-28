@@ -109,7 +109,7 @@ def train_one_epoch(model, iter_bar, optimizer, device, args: config.Args, i_epo
             output_model_file = os.path.join(
                 args.model_save_dir, "model.{0}.bin".format(i_epoch + 1))
             torch.save(model_to_save.state_dict(), output_model_file)
-        elif train_epoch==16:
+        elif train_epoch<=16:
             model_to_save = model.module if hasattr(
                 model, 'module') else model  # Only save the model it-self
             output_model_file = os.path.join(
