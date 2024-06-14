@@ -183,11 +183,12 @@ The expected performance on nuScenes Test set is:
 If you found this repository useful, please consider citing our work:
 
 ```
-@article{liu2023laformer,
-  title={LAformer: Trajectory Prediction for Autonomous Driving with Lane-Aware Scene Constraints},
+@inproceedings{liu2024laformer,
+  title={Laformer: Trajectory prediction for autonomous driving with lane-aware scene constraints},
   author={Liu, Mengmeng and Cheng, Hao and Chen, Lin and Broszio, Hellward and Li, Jiangtao and Zhao, Runjiang and Sester, Monika and Yang, Michael Ying},
-  journal={arXiv preprint arXiv:2302.13933},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2039--2049},
+  year={2024}
 }
 ```
 
